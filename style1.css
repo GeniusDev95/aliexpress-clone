@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1900px;
+    font-family: poppins;
+  
+    
+}
+header{
+    margin: 0;
+    padding: 0px 180px;
+    background-color: #191919;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .searchbar input{
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png') ;
+} */
+input[type=search] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-0.png')   ;
+    background-size: 25px;
+    background-position: 460px 5px; 
+    background-repeat: no-repeat;
+    padding: 8px 40px 8px 15px;
+  }
+.top-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-content:end;
+    font-size: small;
+}
+.icon i{
+    margin-top: 20spx;
+}
+.icon{
+    display: flex;
+    /* align-content: center; */
+    max-width: 150px;
+    gap: 7px;
+    
+}
+button{
+    width: 30px;
+    border-radius: 9px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.header2 button{
+    width: fit-content;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #191919;
+    color: white;
+}
+button:hover{
+    background-color: #535353;
+    color:rgb(255, 255, 255) ;
+    
+    }
+.container1{
+    display: flex;
+    background-color: #ff611d;
+    padding: 50px 180px;
+}
+.text p{
+ font-size: large;
+ /* color: white; */
+}
+.text h1{
+color: white;
+font-size: 45px;
+}
+.text h3{
+    color: white;
+    font-size: 35px;
+    }
+.text{
+    width: 30%;
+    line-height: 80px;
+}
+.text img{
+    margin-bottom: -85px;
+}
+.cards{
+    width: 70%;
+}
+.cards img{
+    width: 225PX;
+}
+h1 span{
+    font-size: 70px;
+}
+.midrow img{
+    padding: 0px 180px;
+    width: 100%;
+
+}
